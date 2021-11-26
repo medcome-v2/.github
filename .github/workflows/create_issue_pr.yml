@@ -1,0 +1,17 @@
+name: pr و issue ایجاد
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    name: برچسب زدن
+    steps:
+    - name: 🏷 برچسب زدن
+      uses: jimschubert/labeler-action@v2
+      with:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

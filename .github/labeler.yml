@@ -1,0 +1,17 @@
+enable:
+  issues: true
+  prs: true
+
+labels:
+  feature:
+    - '\bfeature\/'
+  bugfix:
+    - '\bbugfix\/'
+  hotfix:
+    - '\bhotfix\/'
+  release:
+    - '^انتشار نسخه \d+.\d+.\d+$'
+  devops:
+    - '\bdevops'
+  refactor:
+    - '\brefactor\/'
