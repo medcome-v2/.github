@@ -242,6 +242,34 @@ husky ،git hook و lint-staged
 commit
 چندین ثانیه افزایش پیدا کرده است.
 
+حسابی که برای commit کردن استفاده می شود باید دو نکته را رعایت کند.
+اولا نام شخص به صورت فارسی و کامل باشد و دوما با استفاده از
+GPG
+تایید شود.
+
+> برای تعیین نام و ایمیل از این دستور استفاده کنید.
+>
+> <div dir='ltr'>
+>
+> ```sh
+> git config --global user.name "نام"
+> git config --global user.email "ایمیل"
+> ```
+>
+> </div>
+>
+> اگر از
+> `global--`
+> استفاده نشود به جای همه
+> repository
+> ها، نام و ایمیل جدید تنها برای
+> repository
+> فعلی در نظر گرفته می شود.
+
+> برای استفاده از GPG
+> [این راهنما](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification)
+> را بخوانید.
+
 # &rlm;✨ format کردن
 
 برای منظم نگه داشتن کد ها باید آن ها را
