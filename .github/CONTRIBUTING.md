@@ -215,7 +215,7 @@ merge کردن 3 حالت وجود داره.
 در خط اول هدف شاخه نوشته می شود.
 مثلا **اتمام authentication**.
 در خط دوم پیام پیش فرض گیت باقی می ماند. قالب این پیام به صورت
-**Merge branch '...' into develop**
+**Merge pull request #n from ... into develop**
 است. در خط سوم به بعد لیستی از اقدامات انجام شده نوشته می شود.
 مثلا:
 
@@ -223,7 +223,7 @@ merge کردن 3 حالت وجود داره.
 
 ```
 ها import اتمام مرتب کردن
-Merge branch 'refactor/import' into develop
+Merge pull request #4 from refactor/import into develop
 
 - ها import مرتب کردن
 - util به core انتقال ماژول های غیر اصلی از پوشه
