@@ -1,7 +1,7 @@
 ---
 name: devops
 about: ... مدیریت سرور، استقرار نرم افزار، پایگاه داده و
-title: 'عنوان devops'
+title: 'عنوان - devops/name'
 labels: devops
 assignees: ''
 ---

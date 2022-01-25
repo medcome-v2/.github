@@ -1,7 +1,7 @@
 ---
 name: bug
 about: گزارش یک مشکل قبل یا بعد از انتشار
-title: 'عنوان مشکل bugfix|hotfix/name'
+title: 'عنوان مشکل - bugfix|hotfix/name'
 labels: ''
 assignees: ''
 ---

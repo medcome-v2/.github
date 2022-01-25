@@ -1,7 +1,7 @@
 ---
 name: feature
 about: افزودن ویژگی جدید
-title: 'عنوان ویژگی feature/name'
+title: 'عنوان ویژگی - feature/name'
 labels: feature
 assignees: ''
 ---

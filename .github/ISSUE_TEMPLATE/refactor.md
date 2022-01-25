@@ -1,7 +1,7 @@
 ---
 name: refactor
 about: باز بینی و بهبود کیفیت کد ها
-title: نام بخش refactor/module
+title: نام بخش - refactor/module
 labels: refactor
 assignees: ''
 ---
